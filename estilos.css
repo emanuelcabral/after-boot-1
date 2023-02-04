@@ -1,0 +1,101 @@
+.navbar {
+    background-color: green;
+}
+.nav-link{ 
+    color: #ccc !important;
+}
+.nav-item i{
+    color: yellowgreen;
+}
+
+
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+/* .carousel-control-prev-icon{
+            position: relative;
+            left: 50%;
+        } */
+
+.sec {
+    width: 100%;
+}
+
+.carousel-indicators li {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid green;
+    /* display: none; */
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    transform: scale(2);
+    transition: all 0.5s;
+}
+
+.galery {
+    height: 500px;
+    background-color: orange
+}
+
+h2 {
+    text-align: center;
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+footer i {
+    letter-spacing: 20px;
+}
+
+footer i:hover {
+    color: green;
+}
+
+.red{
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+.contact a{
+    text-decoration: none;
+}
+
+.contact a:nth-child(1):hover{
+    background-color: #000;
+    color: #ff0;
+}
+
+.contact a:nth-child(2):hover{
+    background-color: white;
+    color: blue;
+}
+
+.contact a:nth-child(3):hover{
+    background-color: blue;
+    color: #fff;
+}
